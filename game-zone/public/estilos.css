@@ -1,0 +1,49 @@
+body{
+    background-image: url('img/GZ.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgba(239, 241, 243, 0.877)
+    /*margin: 0;*/  
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button{
+    width: auto;
+    padding: 10px 30px;
+    background-color: #d9e716;
+    color: rgba(255, 255, 255, 0.836);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;  
+}
+
+button:hover {
+    background-color: #09f009;
+    transform: scale(1.05);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.form-container{
+    background-color: rgba(236, 239, 240, 0.151);
+    position: relative;
+    z-index: 2;
+    padding: 180px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(250, 249, 249, 0.555);
+}

@@ -1,0 +1,19 @@
+{
+    "name": "user/game-zone",
+    "description": "Tienes que escribir la palabra desordenada de forma correcta",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "User\\GameZone\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leonel Guerrero",
+            "email": "leonel.270502@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
